@@ -1,0 +1,11 @@
+/Users/kacper.szczepanek/Documents/Repos/wsb-algorytmy-i-struktury-danych/rekurencja-cs/rekurencja-cs/bin/Debug/netcoreapp3.0/rekurencja-cs
+/Users/kacper.szczepanek/Documents/Repos/wsb-algorytmy-i-struktury-danych/rekurencja-cs/rekurencja-cs/bin/Debug/netcoreapp3.0/rekurencja-cs.deps.json
+/Users/kacper.szczepanek/Documents/Repos/wsb-algorytmy-i-struktury-danych/rekurencja-cs/rekurencja-cs/bin/Debug/netcoreapp3.0/rekurencja-cs.runtimeconfig.json
+/Users/kacper.szczepanek/Documents/Repos/wsb-algorytmy-i-struktury-danych/rekurencja-cs/rekurencja-cs/bin/Debug/netcoreapp3.0/rekurencja-cs.runtimeconfig.dev.json
+/Users/kacper.szczepanek/Documents/Repos/wsb-algorytmy-i-struktury-danych/rekurencja-cs/rekurencja-cs/bin/Debug/netcoreapp3.0/rekurencja-cs.dll
+/Users/kacper.szczepanek/Documents/Repos/wsb-algorytmy-i-struktury-danych/rekurencja-cs/rekurencja-cs/bin/Debug/netcoreapp3.0/rekurencja-cs.pdb
+/Users/kacper.szczepanek/Documents/Repos/wsb-algorytmy-i-struktury-danych/rekurencja-cs/rekurencja-cs/obj/Debug/netcoreapp3.0/rekurencja-cs.csprojAssemblyReference.cache
+/Users/kacper.szczepanek/Documents/Repos/wsb-algorytmy-i-struktury-danych/rekurencja-cs/rekurencja-cs/obj/Debug/netcoreapp3.0/rekurencja-cs.AssemblyInfoInputs.cache
+/Users/kacper.szczepanek/Documents/Repos/wsb-algorytmy-i-struktury-danych/rekurencja-cs/rekurencja-cs/obj/Debug/netcoreapp3.0/rekurencja-cs.AssemblyInfo.cs
+/Users/kacper.szczepanek/Documents/Repos/wsb-algorytmy-i-struktury-danych/rekurencja-cs/rekurencja-cs/obj/Debug/netcoreapp3.0/rekurencja-cs.dll
+/Users/kacper.szczepanek/Documents/Repos/wsb-algorytmy-i-struktury-danych/rekurencja-cs/rekurencja-cs/obj/Debug/netcoreapp3.0/rekurencja-cs.pdb

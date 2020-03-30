@@ -1,0 +1,23 @@
+﻿<Properties StartupConfiguration="{985051B8-9EF4-41C9-B4F2-BA7B27DCDB82}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="rekurencja-cs/Program.cs">
+    <Files>
+      <File FileName="rekurencja-cs/Program.cs" Line="24" Column="20" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="rekurencja-cs" expanded="True" selected="True">
+            <Node name="rekurencja-cs" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.rekurencja-cs PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

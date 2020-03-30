@@ -1,0 +1,25 @@
+﻿<Properties StartupConfiguration="{8DF3AAE6-E0CA-41EB-9997-5E4D6570AF35}|Default">
+  <MonoDevelop.Ide.ItemProperties.wyszukiwanie PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="wyszukiwanie/Program.cs">
+    <Files>
+      <File FileName="wyszukiwanie/Program.cs" Line="190" Column="39" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="wyszukiwanie" expanded="True">
+            <Node name="wyszukiwanie" expanded="True">
+              <Node name="Program.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
