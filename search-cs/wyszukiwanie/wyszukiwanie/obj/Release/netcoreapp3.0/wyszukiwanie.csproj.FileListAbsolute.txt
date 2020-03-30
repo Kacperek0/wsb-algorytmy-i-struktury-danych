@@ -8,3 +8,13 @@
 /Users/kacper.szczepanek/Documents/Repos/wsb-algorytmy-i-struktury-danych/wyszukiwanie-ks/wyszukiwanie/wyszukiwanie/obj/Release/netcoreapp3.0/wyszukiwanie.AssemblyInfo.cs
 /Users/kacper.szczepanek/Documents/Repos/wsb-algorytmy-i-struktury-danych/wyszukiwanie-ks/wyszukiwanie/wyszukiwanie/obj/Release/netcoreapp3.0/wyszukiwanie.dll
 /Users/kacper.szczepanek/Documents/Repos/wsb-algorytmy-i-struktury-danych/wyszukiwanie-ks/wyszukiwanie/wyszukiwanie/obj/Release/netcoreapp3.0/wyszukiwanie.pdb
+/Users/kacper.szczepanek/Documents/Repos/wsb-algorytmy-i-struktury-danych/search-cs/wyszukiwanie/wyszukiwanie/bin/Release/netcoreapp3.0/wyszukiwanie
+/Users/kacper.szczepanek/Documents/Repos/wsb-algorytmy-i-struktury-danych/search-cs/wyszukiwanie/wyszukiwanie/bin/Release/netcoreapp3.0/wyszukiwanie.deps.json
+/Users/kacper.szczepanek/Documents/Repos/wsb-algorytmy-i-struktury-danych/search-cs/wyszukiwanie/wyszukiwanie/bin/Release/netcoreapp3.0/wyszukiwanie.runtimeconfig.json
+/Users/kacper.szczepanek/Documents/Repos/wsb-algorytmy-i-struktury-danych/search-cs/wyszukiwanie/wyszukiwanie/bin/Release/netcoreapp3.0/wyszukiwanie.runtimeconfig.dev.json
+/Users/kacper.szczepanek/Documents/Repos/wsb-algorytmy-i-struktury-danych/search-cs/wyszukiwanie/wyszukiwanie/bin/Release/netcoreapp3.0/wyszukiwanie.dll
+/Users/kacper.szczepanek/Documents/Repos/wsb-algorytmy-i-struktury-danych/search-cs/wyszukiwanie/wyszukiwanie/bin/Release/netcoreapp3.0/wyszukiwanie.pdb
+/Users/kacper.szczepanek/Documents/Repos/wsb-algorytmy-i-struktury-danych/search-cs/wyszukiwanie/wyszukiwanie/obj/Release/netcoreapp3.0/wyszukiwanie.AssemblyInfoInputs.cache
+/Users/kacper.szczepanek/Documents/Repos/wsb-algorytmy-i-struktury-danych/search-cs/wyszukiwanie/wyszukiwanie/obj/Release/netcoreapp3.0/wyszukiwanie.AssemblyInfo.cs
+/Users/kacper.szczepanek/Documents/Repos/wsb-algorytmy-i-struktury-danych/search-cs/wyszukiwanie/wyszukiwanie/obj/Release/netcoreapp3.0/wyszukiwanie.dll
+/Users/kacper.szczepanek/Documents/Repos/wsb-algorytmy-i-struktury-danych/search-cs/wyszukiwanie/wyszukiwanie/obj/Release/netcoreapp3.0/wyszukiwanie.pdb
