@@ -18,3 +18,4 @@
 /Users/kacper.szczepanek/Documents/Repos/wsb-algorytmy-i-struktury-danych/search-cs/wyszukiwanie/wyszukiwanie/obj/Release/netcoreapp3.0/wyszukiwanie.AssemblyInfo.cs
 /Users/kacper.szczepanek/Documents/Repos/wsb-algorytmy-i-struktury-danych/search-cs/wyszukiwanie/wyszukiwanie/obj/Release/netcoreapp3.0/wyszukiwanie.dll
 /Users/kacper.szczepanek/Documents/Repos/wsb-algorytmy-i-struktury-danych/search-cs/wyszukiwanie/wyszukiwanie/obj/Release/netcoreapp3.0/wyszukiwanie.pdb
+/Users/kacper.szczepanek/Documents/Repos/wsb-algorytmy-i-struktury-danych/search-cs/wyszukiwanie/wyszukiwanie/obj/Release/netcoreapp3.0/wyszukiwanie.csprojAssemblyReference.cache

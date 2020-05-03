@@ -1,0 +1,12 @@
+/Users/kacper.szczepanek/Documents/Repos/wsb-algorytmy-i-struktury-danych/prime-number-cs/prime-numbers/prime-numbers/bin/Debug/netcoreapp3.0/prime-numbers.deps.json
+/Users/kacper.szczepanek/Documents/Repos/wsb-algorytmy-i-struktury-danych/prime-number-cs/prime-numbers/prime-numbers/bin/Debug/netcoreapp3.0/prime-numbers.runtimeconfig.json
+/Users/kacper.szczepanek/Documents/Repos/wsb-algorytmy-i-struktury-danych/prime-number-cs/prime-numbers/prime-numbers/bin/Debug/netcoreapp3.0/prime-numbers.runtimeconfig.dev.json
+/Users/kacper.szczepanek/Documents/Repos/wsb-algorytmy-i-struktury-danych/prime-number-cs/prime-numbers/prime-numbers/bin/Debug/netcoreapp3.0/prime-numbers.dll
+/Users/kacper.szczepanek/Documents/Repos/wsb-algorytmy-i-struktury-danych/prime-number-cs/prime-numbers/prime-numbers/bin/Debug/netcoreapp3.0/prime-numbers.pdb
+/Users/kacper.szczepanek/Documents/Repos/wsb-algorytmy-i-struktury-danych/prime-number-cs/prime-numbers/prime-numbers/obj/Debug/netcoreapp3.0/prime-numbers.csprojAssemblyReference.cache
+/Users/kacper.szczepanek/Documents/Repos/wsb-algorytmy-i-struktury-danych/prime-number-cs/prime-numbers/prime-numbers/obj/Debug/netcoreapp3.0/prime-numbers.AssemblyInfoInputs.cache
+/Users/kacper.szczepanek/Documents/Repos/wsb-algorytmy-i-struktury-danych/prime-number-cs/prime-numbers/prime-numbers/obj/Debug/netcoreapp3.0/prime-numbers.AssemblyInfo.cs
+/Users/kacper.szczepanek/Documents/Repos/wsb-algorytmy-i-struktury-danych/prime-number-cs/prime-numbers/prime-numbers/obj/Debug/netcoreapp3.0/prime-numbers.dll
+/Users/kacper.szczepanek/Documents/Repos/wsb-algorytmy-i-struktury-danych/prime-number-cs/prime-numbers/prime-numbers/obj/Debug/netcoreapp3.0/prime-numbers.pdb
+/Users/kacper.szczepanek/Documents/Repos/wsb-algorytmy-i-struktury-danych/prime-number-cs/prime-numbers/prime-numbers/obj/Debug/netcoreapp3.0/prime-numbers.csproj.CoreCompileInputs.cache
+/Users/kacper.szczepanek/Documents/Repos/wsb-algorytmy-i-struktury-danych/prime-number-cs/prime-numbers/prime-numbers/obj/Debug/netcoreapp3.0/prime-numbers.genruntimeconfig.cache

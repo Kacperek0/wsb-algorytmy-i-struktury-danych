@@ -14,7 +14,7 @@
         "outputPath": "/Users/kacper.szczepanek/Documents/Repos/wsb-algorytmy-i-struktury-danych/search-cs/wyszukiwanie/wyszukiwanie/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/kacper.szczepanek/.config/NuGet/NuGet.Config"
+          "/Users/kacper.szczepanek/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.0"

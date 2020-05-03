@@ -141,8 +141,8 @@ namespace wyszukiwanie
                     if (IterationElapsedTime > MaxTime) MaxTime = IterationElapsedTime;
                 }
                 ElapsedTime -= (MinTime + MaxTime);
-                ElapsedSeconds = (ElapsedTime * (1.0 / (NIter * Stopwatch.Frequency))) * 1000000;
-                Console.Write("\t" + ElapsedSeconds.ToString("F4") + " μs");
+                ElapsedSeconds = (ElapsedTime * (1.0 / (NIter * Stopwatch.Frequency))) * 1000;
+                Console.Write("\t" + ElapsedSeconds.ToString("F4") + " ms");
             }
 
             static void LinearAvgInstr()
@@ -205,8 +205,8 @@ namespace wyszukiwanie
                 }
                 ElapsedTime -= (MinTime + MaxTime);
                 ElapsedSeconds = ElapsedTime * (1.0 / (NIter * Stopwatch.Frequency));
-                AvgSeconds = (ElapsedSeconds / TestVector.Length) * 1000000;
-                Console.Write("\t" + AvgSeconds.ToString("F4") + " μs");
+                AvgSeconds = (ElapsedSeconds / TestVector.Length) * 1000;
+                Console.Write("\t" + AvgSeconds.ToString("F4") + " ms");
             }
         }
     }
