@@ -2,11 +2,11 @@
   <MonoDevelop.Ide.ItemProperties.prime-numbers PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workbench ActiveDocument="prime-numbers/Program.cs">
     <Files>
-      <File FileName="prime-numbers/Program.cs" Line="164" Column="10" />
+      <File FileName="prime-numbers/Program.cs" Line="181" Column="59" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
