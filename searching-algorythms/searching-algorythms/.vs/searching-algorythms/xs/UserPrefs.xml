@@ -1,0 +1,14 @@
+﻿<Properties StartupConfiguration="{F494F275-F1F7-4712-BC87-F5708263430C}|Default">
+  <MonoDevelop.Ide.ItemProperties.searching-algorythms PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="searching-algorythms/Program.cs">
+    <Files>
+      <File FileName="searching-algorythms/Program.cs" Line="20" Column="21" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
