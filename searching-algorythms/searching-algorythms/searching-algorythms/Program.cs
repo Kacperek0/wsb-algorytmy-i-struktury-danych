@@ -11,13 +11,11 @@ namespace searching_algorythms
 
         static void Main(string[] args)
         {
-            SortingPart1();
+            //SortingPart1();
 
             Thread TesterThread = new Thread(Program.Tester, 8 * 1024 * 1024);
             TesterThread.Start();
             TesterThread.Join();
-            Console.WriteLine("Tu drukujemy podsumowanie eksperymentu {0}", TesterThread);
-
         }
 
         static int[] GenerateAscendingArray(int[] t)
@@ -151,6 +149,178 @@ namespace searching_algorythms
             if (l < j) QuicksortRecursive(t, l, j);
             if (i < p) QuicksortRecursive(t, i, p);
         }
+        static void QuicksortIterative(int[] t)
+        {
+            int i, j, l, p, sp;
+            int[] stos_l = new int[t.Length],
+                  stos_p = new int[t.Length];
+            sp = 0; stos_l[sp] = 0; stos_p[sp] = t.Length - 1;
+            do
+            {
+                l = stos_l[sp]; p = stos_p[sp]; sp--;
+                do
+                {
+                    int x;
+                    i = l; j = p; x = t[(l + p) / 2];
+                    do
+                    {
+                        while (t[i] < x) i++;
+                        while (x < t[j]) j--;
+                        if (i <= j)
+                        {
+                            int buf = t[i]; t[i] = t[j]; t[j] = buf;
+                            i++; j--;
+                        }
+                    } while (i <= j);
+                    if (i < p) { sp++; stos_l[sp] = i; stos_p[sp] = p; }
+                    p = j;
+                } while (l < p);
+            } while (sp >= 0);
+        }
+        static void QuicksortRecursiveLeft(int[] t, int l, int p)
+        {
+            int i, j, x;
+            i = l;
+            j = p;
+            x = t[0];
+            do
+            {
+                while (t[i] < x) i++;
+                while (x < t[j]) j--;
+                if (i <= j)
+                {
+                    int buf = t[i]; t[i] = t[j]; t[j] = buf;
+                    i++; j--;
+                }
+            } while (i <= j);
+            if (l < j) QuicksortRecursiveLeft(t, l, j);
+            if (i < p) QuicksortRecursiveLeft(t, i, p);
+        }
+        static void QuicksortIterativeLeft(int[] t)
+        {
+            int i, j, l, p, sp;
+            int[] stos_l = new int[t.Length],
+                  stos_p = new int[t.Length];
+            sp = 0; stos_l[sp] = 0; stos_p[sp] = t.Length - 1;
+            do
+            {
+                l = stos_l[sp]; p = stos_p[sp]; sp--;
+                do
+                {
+                    int x;
+                    i = l; j = p; x = t[(l + p) / 2];
+                    do
+                    {
+                        while (t[i] < x) i++;
+                        while (x < t[j]) j--;
+                        if (i <= j)
+                        {
+                            int buf = t[i]; t[i] = t[j]; t[j] = buf;
+                            i++; j--;
+                        }
+                    } while (i <= j);
+                    if (i < p) { sp++; stos_l[sp] = i; stos_p[sp] = p; }
+                    p = j;
+                } while (l < p);
+            } while (sp >= 0);
+        }
+        static void QuicksortRecursiveRight(int[] t, int l, int p)
+        {
+            int i, j, x;
+            i = l;
+            j = p;
+            x = t[^1];
+            do
+            {
+                while (t[i] < x) i++;
+                while (x < t[j]) j--;
+                if (i <= j)
+                {
+                    int buf = t[i]; t[i] = t[j]; t[j] = buf;
+                    i++; j--;
+                }
+            } while (i <= j);
+            if (l < j) QuicksortRecursiveRight(t, l, j);
+            if (i < p) QuicksortRecursiveRight(t, i, p);
+        }
+        static void QuicksortIterativeRight(int[] t)
+        {
+            int i, j, l, p, sp;
+            int[] stos_l = new int[t.Length],
+                  stos_p = new int[t.Length];
+            sp = 0; stos_l[sp] = 0; stos_p[sp] = t.Length - 1;
+            do
+            {
+                l = stos_l[sp]; p = stos_p[sp]; sp--;
+                do
+                {
+                    int x;
+                    i = l; j = p; x = t[^1];
+                    do
+                    {
+                        while (t[i] < x) i++;
+                        while (x < t[j]) j--;
+                        if (i <= j)
+                        {
+                            int buf = t[i]; t[i] = t[j]; t[j] = buf;
+                            i++; j--;
+                        }
+                    } while (i <= j);
+                    if (i < p) { sp++; stos_l[sp] = i; stos_p[sp] = p; }
+                    p = j;
+                } while (l < p);
+            } while (sp >= 0);
+        }
+        static void QuicksortRecursiveRnd(int[] t, int l, int p)
+        {
+            Random r = new Random();
+            int i, j, x;
+            i = l;
+            j = p;
+            x = t[r.Next(0, t.Length - 1)];
+            do
+            {
+                while (t[i] < x) i++;
+                while (x < t[j]) j--;
+                if (i <= j)
+                {
+                    int buf = t[i]; t[i] = t[j]; t[j] = buf;
+                    i++; j--;
+                }
+            } while (i <= j);
+            if (l < j) QuicksortRecursiveRnd(t, l, j);
+            if (i < p) QuicksortRecursive(t, i, p);
+        }
+        static void QuicksortIterativeRnd(int[] t)
+        {
+            Random r = new Random();
+
+            int i, j, l, p, sp;
+            int[] stos_l = new int[t.Length],
+                  stos_p = new int[t.Length];
+            sp = 0; stos_l[sp] = 0; stos_p[sp] = t.Length - 1;
+            do
+            {
+                l = stos_l[sp]; p = stos_p[sp]; sp--;
+                do
+                {
+                    int x;
+                    i = l; j = p; x = t[r.Next(0, t.Length - 1)];
+                    do
+                    {
+                        while (t[i] < x) i++;
+                        while (x < t[j]) j--;
+                        if (i <= j)
+                        {
+                            int buf = t[i]; t[i] = t[j]; t[j] = buf;
+                            i++; j--;
+                        }
+                    } while (i <= j);
+                    if (i < p) { sp++; stos_l[sp] = i; stos_p[sp] = p; }
+                    p = j;
+                } while (l < p);
+            } while (sp >= 0);
+        }
         static void Sorting(int[] t)
         {
             Stopwatch stopwatch = new Stopwatch();
@@ -179,7 +349,61 @@ namespace searching_algorythms
             Console.Write("{0}\n", stopwatch.ElapsedMilliseconds);
             stopwatch.Reset();
         }
+        static void QuickSorting(int[] t)
+        {
+            Stopwatch stopwatch = new Stopwatch();
 
+            int left = 0;
+            int right = t.Length - 1;
+
+            stopwatch.Start();
+            QuicksortRecursive(t, left, right);
+            stopwatch.Stop();
+            Console.Write("{0};", stopwatch.ElapsedMilliseconds);
+            stopwatch.Reset();
+
+            stopwatch.Start();
+            QuicksortIterative(t);
+            stopwatch.Stop();
+            Console.Write("{0};", stopwatch.ElapsedMilliseconds);
+            stopwatch.Reset();
+
+            stopwatch.Start();
+            QuicksortRecursiveLeft(t, left, right);
+            stopwatch.Stop();
+            Console.Write("{0};", stopwatch.ElapsedMilliseconds);
+            stopwatch.Reset();
+
+            stopwatch.Start();
+            QuicksortIterativeLeft(t);
+            stopwatch.Stop();
+            Console.Write("{0};", stopwatch.ElapsedMilliseconds);
+            stopwatch.Reset();
+
+            stopwatch.Start();
+            QuicksortRecursiveRight(t, left, right);
+            stopwatch.Stop();
+            Console.Write("{0};", stopwatch.ElapsedMilliseconds);
+            stopwatch.Reset();
+
+            stopwatch.Start();
+            QuicksortIterativeRight(t);
+            stopwatch.Stop();
+            Console.Write("{0};", stopwatch.ElapsedMilliseconds);
+            stopwatch.Reset();
+
+            stopwatch.Start();
+            QuicksortRecursiveRnd(t, left, right);
+            stopwatch.Stop();
+            Console.Write("{0};", stopwatch.ElapsedMilliseconds);
+            stopwatch.Reset();
+
+            stopwatch.Start();
+            QuicksortIterativeRnd(t);
+            stopwatch.Stop();
+            Console.Write("{0}\n", stopwatch.ElapsedMilliseconds);
+            stopwatch.Reset();
+        }
         static void SortingPart1()
         {
             for (int arraySize = 50000; arraySize <= 200000; arraySize += 50000)
@@ -198,11 +422,21 @@ namespace searching_algorythms
             }
 
         }
-
-
         static void Tester()
         {
-
+            for (int arraySize = 50000; arraySize <= 200000; arraySize += 50000)
+            {
+                Console.WriteLine("{0}\narray_type;recursive;iterative;rec_left;iter_left;rec_right;iter_right", arraySize);
+                int[] startArray = new int[arraySize];
+                Console.Write("ascending_array;");
+                QuickSorting(GenerateAscendingArray(startArray));
+                Console.Write("descending_array;");
+                QuickSorting(GenerateDescendingArray(startArray));
+                Console.Write("random_array;");
+                QuickSorting(GenerateRandomArray(startArray, rnd));
+                Console.Write("v_array;");
+                QuickSorting(GenerateVArray(startArray));
+            }
         }
     }
 }
