@@ -11,11 +11,13 @@ namespace searching_algorythms
 
         static void Main(string[] args)
         {
-            //SortingPart1();
-
-            Thread TesterThread = new Thread(Program.Tester, 8 * 1024 * 1024);
+            SortingPart1();
+            Console.WriteLine();
+            Thread TesterThread = new Thread(Program.Tester, 32 * 1024 * 1024);
             TesterThread.Start();
             TesterThread.Join();
+
+            Console.ReadKey();
         }
 
         static int[] GenerateAscendingArray(int[] t)
@@ -182,7 +184,7 @@ namespace searching_algorythms
             int i, j, x;
             i = l;
             j = p;
-            x = t[0];
+            x = t[l];
             do
             {
                 while (t[i] < x) i++;
@@ -208,7 +210,7 @@ namespace searching_algorythms
                 do
                 {
                     int x;
-                    i = l; j = p; x = t[(l + p) / 2];
+                    i = l; j = p; x = t[l];
                     do
                     {
                         while (t[i] < x) i++;
@@ -229,7 +231,7 @@ namespace searching_algorythms
             int i, j, x;
             i = l;
             j = p;
-            x = t[^1];
+            x = t[p];
             do
             {
                 while (t[i] < x) i++;
@@ -255,7 +257,7 @@ namespace searching_algorythms
                 do
                 {
                     int x;
-                    i = l; j = p; x = t[^1];
+                    i = l; j = p; x = t[p];
                     do
                     {
                         while (t[i] < x) i++;
@@ -277,7 +279,7 @@ namespace searching_algorythms
             int i, j, x;
             i = l;
             j = p;
-            x = t[r.Next(0, t.Length - 1)];
+            x = t[r.Next(l, p)];
             do
             {
                 while (t[i] < x) i++;
@@ -289,7 +291,7 @@ namespace searching_algorythms
                 }
             } while (i <= j);
             if (l < j) QuicksortRecursiveRnd(t, l, j);
-            if (i < p) QuicksortRecursive(t, i, p);
+            if (i < p) QuicksortRecursiveRnd(t, i, p);
         }
         static void QuicksortIterativeRnd(int[] t)
         {
@@ -305,7 +307,7 @@ namespace searching_algorythms
                 do
                 {
                     int x;
-                    i = l; j = p; x = t[r.Next(0, t.Length - 1)];
+                    i = l; j = p; x = t[r.Next(l, p)];
                     do
                     {
                         while (t[i] < x) i++;
@@ -426,7 +428,7 @@ namespace searching_algorythms
         {
             for (int arraySize = 50000; arraySize <= 200000; arraySize += 50000)
             {
-                Console.WriteLine("{0}\narray_type;recursive;iterative;rec_left;iter_left;rec_right;iter_right", arraySize);
+                Console.WriteLine("{0}\narray_type;recursive;iterative;rec_left;iter_left;rec_right;iter_right;rec_rnd;iter_rnd", arraySize);
                 int[] startArray = new int[arraySize];
                 Console.Write("ascending_array;");
                 QuickSorting(GenerateAscendingArray(startArray));

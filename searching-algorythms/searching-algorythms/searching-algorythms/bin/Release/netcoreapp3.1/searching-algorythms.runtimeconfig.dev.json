@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "/Users/kacper.szczepanek/.dotnet/store/|arch|/|tfm|",
+      "/Users/kacper.szczepanek/.nuget/packages"
+    ]
+  }
+}

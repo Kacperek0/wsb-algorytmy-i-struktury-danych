@@ -1,0 +1,11 @@
+/Users/kacper.szczepanek/Documents/Repos/wsb-algorytmy-i-struktury-danych/searching-algorythms/searching-algorythms/searching-algorythms/bin/Release/netcoreapp3.1/searching-algorythms.deps.json
+/Users/kacper.szczepanek/Documents/Repos/wsb-algorytmy-i-struktury-danych/searching-algorythms/searching-algorythms/searching-algorythms/bin/Release/netcoreapp3.1/searching-algorythms.runtimeconfig.json
+/Users/kacper.szczepanek/Documents/Repos/wsb-algorytmy-i-struktury-danych/searching-algorythms/searching-algorythms/searching-algorythms/bin/Release/netcoreapp3.1/searching-algorythms.runtimeconfig.dev.json
+/Users/kacper.szczepanek/Documents/Repos/wsb-algorytmy-i-struktury-danych/searching-algorythms/searching-algorythms/searching-algorythms/bin/Release/netcoreapp3.1/searching-algorythms.dll
+/Users/kacper.szczepanek/Documents/Repos/wsb-algorytmy-i-struktury-danych/searching-algorythms/searching-algorythms/searching-algorythms/bin/Release/netcoreapp3.1/searching-algorythms.pdb
+/Users/kacper.szczepanek/Documents/Repos/wsb-algorytmy-i-struktury-danych/searching-algorythms/searching-algorythms/searching-algorythms/obj/Release/netcoreapp3.1/searching-algorythms.AssemblyInfoInputs.cache
+/Users/kacper.szczepanek/Documents/Repos/wsb-algorytmy-i-struktury-danych/searching-algorythms/searching-algorythms/searching-algorythms/obj/Release/netcoreapp3.1/searching-algorythms.AssemblyInfo.cs
+/Users/kacper.szczepanek/Documents/Repos/wsb-algorytmy-i-struktury-danych/searching-algorythms/searching-algorythms/searching-algorythms/obj/Release/netcoreapp3.1/searching-algorythms.csproj.CoreCompileInputs.cache
+/Users/kacper.szczepanek/Documents/Repos/wsb-algorytmy-i-struktury-danych/searching-algorythms/searching-algorythms/searching-algorythms/obj/Release/netcoreapp3.1/searching-algorythms.dll
+/Users/kacper.szczepanek/Documents/Repos/wsb-algorytmy-i-struktury-danych/searching-algorythms/searching-algorythms/searching-algorythms/obj/Release/netcoreapp3.1/searching-algorythms.pdb
+/Users/kacper.szczepanek/Documents/Repos/wsb-algorytmy-i-struktury-danych/searching-algorythms/searching-algorythms/searching-algorythms/obj/Release/netcoreapp3.1/searching-algorythms.genruntimeconfig.cache
